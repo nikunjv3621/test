@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 const product_routes = require("./routes/products");
 
 app.get("/", (req, res) => {
-    res.send("Hello");
+    res.send("API Route Working");
 })
 
 // Middeware or set router
